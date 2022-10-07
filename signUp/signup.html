@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="headernav">
+        <a href="">Not logged In</a>&nbsp <a href="">Talk</a>&nbsp
+        <a href="">Contributions</a>&nbsp <a href="signup.html">Sign Up</a>&nbsp
+      </nav>
+    </header>
+    <aside>
+      <header><img src="../img/logo.png" width="90px" height="102px" /></header>
+      <a href="../index.html">Main page</a><br />
+      <a href="">Content</a><br />
+      <a href="">Current events</a><br />
+      <a href="">Random Article</a><br />
+      <a href="">About Wikipedia</a><br />
+      <a href="">Conact Us</a><br />
+      <a href="">Donate</a><br />
+      <h5>Contribute</h5>
+      <a href="">Help</a><br />
+      <a href="">Learn to edit</a><br />
+      <a href="">Community portal</a><br />
+      <a href="">Recent changes</a><br />
+      <a href="">Upload file</a><br />
+      <h5>Tools</h5>
+      <a href="">What link here</a><br />
+      <a href="">Related changes</a><br />
+      <a href="">Special pages</a><br />
+      <a href="">Permanent link</a><br />
+      <a href="">Page information</a><br />
+      <a href="">Cite this page</a><br />
+      <a href="">Wikidata item</a><br />
+      <h5>Print/Export</h5>
+      <a href="">Download as Pdf</a><br />
+      <a href="">Printable version</a><br />
+      <h5>Languages</h5>
+      <a href="">Arabic</a><br />
+    </aside>
+    <section>
+      <fieldset>
+        <legend><h3>Sign Up</h3></legend>
+        <marquee behavior="alternate" direction="left" scrollamount="10">
+          <h3 align="center">Interested in geography? Join us!</h3>
+        </marquee>
+        <form align="center">
+          <br />
+          <label for="fname">Name</label><br />
+          <input type="text" id="fname" name="fname" required /><br /><br />
+
+          <label for="sname">Surname</label><br />
+          <input type="text" id="sname" name="sname" required /><br /><br />
+
+          <label for="email">E-mail</label><br />
+          <input type="email" name="email" id="email" required /><br /><br />
+
+          <label for="citizenship">Choose your citizenship: </label>
+          <select name="citizenship" id="citizenship" required>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Italy">Italy</option>
+            <option value="USA">USA</option></select
+          ><br /><br />
+
+          <label for="englishSkills">English skills (from 1 to 5):</label><br />
+          <input
+            type="range"
+            name="range"
+            id="range"
+            min="1"
+            max="5"
+            required
+          /><br /><br />
+
+          <label for="photo">Upload your photo:</label><br /><br />
+          <input type="file" name="photo" id="photo" required /><br /><br />
+
+          <label for="dbirth">Date of birth</label><br />
+          <input
+            type="date"
+            name="dateOfBirth"
+            id="dbirth"
+            required
+          /><br /><br />
+
+          <p>Choose your gender:</p>
+          <input type="radio" name="gender" id="male" value="Male" required />
+          <label for="male">Male</label><br />
+          <input
+            type="radio"
+            name="gender"
+            id="female"
+            value="Female"
+            required
+          />
+          <label for="female">Female</label><br /><br />
+
+          <p>Which countries have you been to?</p>
+
+          <input
+            type="checkbox"
+            name="country1"
+            id="country1"
+            value="Azerbaijan"
+            required
+          />
+          <label for="country1">Azerbaijan</label><br />
+          <input type="checkbox" name="country2" id="country2" value="Italy" />
+          <label for="country1">Italy</label><br />
+          <input
+            type="checkbox"
+            name="country3"
+            id="country3"
+            value="Germany"
+          />
+          <label for="country1">Germany</label><br />
+          <input type="checkbox" name="country4" id="country4" value="France" />
+          <label for="country1">France</label><br /><br />
+
+          <label for="password">Your password</label><br />
+          <input type="password" name="password" id="password" required /><br />
+
+          <label for="confirmPassword">Confirm password</label><br />
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            required
+          /><br /><br />
+
+          <label for="travelPeriod"
+            >How many months a year can you travel?</label
+          ><br />
+          <input
+            type="number"
+            name="travelPeriod"
+            id="travelPeriod"
+            min="1"
+            max="12"
+            required
+          /><br /><br />
+
+          <input type="submit" value="Sign Up" />
+          <input type="reset" />
+          <h5>
+            By pressing "Sign Up", you agree to the Terms of Service and Privacy
+            Policy.
+          </h5>
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>

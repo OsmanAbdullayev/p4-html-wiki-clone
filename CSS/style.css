@@ -1,0 +1,70 @@
+
+html, body {
+  margin: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+header{
+padding: 15px;
+background:rgb(244, 249, 255);
+
+}
+aside{
+    background:rgb(244, 249, 255);
+    width: 120px;
+    display:table-cell;
+    float: left;
+    padding: 15px;
+}
+
+nav.headernav{
+    text-align: right;
+   width: 100;
+}
+
+
+footer{
+    padding-inline-start: 160px;
+}
+
+h2, h1 {
+    line-height: 35px;
+    border-bottom: 1px solid grey;
+  }
+
+  marquee{
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    color: red;
+  }
+
+  fieldset{
+    border-color: rgb(3, 226, 255);
+    margin-top: 0px;
+    border-width: 1px;
+  }
+
+  fieldset.insert{
+    background-color: rgb(244, 249, 255);
+    width: 200px;
+    float: right;
+    border-color: rgb(3, 226, 255);
+    margin-top: 0px;
+  }
+
+section{
+    margin-top: 0px;
+
+}
+
+a{
+    color: blue
+}
+
+.box{
+  background-color: red;
+  width: 10em;
+  height: 10rem;
+}
